@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tineytai's Recipes</title>
+    
+    <link rel="shortcut icon" href="pics/kirby.jpeg">
+
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->
+
+</head>
+
+    <body>
+        
+        <div class="container">
+            <header class="tm-site-header">
+                <h1 class="tm-site-name"><img src="pics/kirby.jpeg" width="50" height="50"> tineytai's recipes</h1>
+                <p class="tm-site-description">A Compilation of Recipes</p>
+                
+                <nav class="navbar navbar-expand-md tm-main-nav-container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
+                        <ul class="nav nav-fill tm-main-nav-ul">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="savory.html">Savory</a></li>
+                            <li class="nav-item"><a class="nav-link" href="sweet.html">Sweet</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tips.html">Tips</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+            </header>
+            
+            <div class="tm-main-content">
+                <section class="tm-margin-b-l">
+                    <header>
+                        <h2 class="tm-main-title">Savory Recipes</h2>    
+                    </header>
+                    
+                    <p>Looking for something savory? You're in the right place!</p>
+                    
+                    <div class="tm-gallery">
+                        <div class="row">
+                            <figure class="col-lg-6 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                                <a href="chickenpotpie.html">
+                                    <div class="tm-gallery-item-overlay2">
+                                        <img src="pics/potpie.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    </div>
+                                    <p class="tm-figcaption">Mini Chicken Pot Pie</p>
+                                </a>
+                            </figure>
+                            <figure class="col-lg-6 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                                <a href="piecrust.html">
+                                    <div class="tm-gallery-item-overlay2">
+                                        <img src="pics/crust.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    </div>
+                                    <p class="tm-figcaption">Pie Crust</p>
+                                </a>
+                            </figure>
+                            <figure class="col-lg-6 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                                <a href="eggnoodles.html">
+                                    <div class="tm-gallery-item-overlay2">
+                                        <img src="pics/eggnoodles.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    </div>
+                                    <p class="tm-figcaption">Egg Noodles</p>
+                                </a>
+                            </figure>
+                            <figure class="col-lg-6 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                                <a href="eggpancake.html">
+                                    <div class="tm-gallery-item-overlay2">
+                                        <img src="pics/eggpancake.png" alt="Image" class="img-fluid tm-img-center">
+                                    </div>
+                                    <p class="tm-figcaption">Egg Pancake (Dan Bing)</p>
+                                </a>
+                            </figure> 
+                        </div>   
+                    </div>
+                    
+                    <!--
+                    <nav class="tm-gallery-nav">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item"><a class="nav-link active" href="#">1</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">2</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">3</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">4</a></li>                    
+                        </ul>
+                    </nav>
+                -->
+                </section>
+
+                <section class="media tm-highlight tm-highlight-w-icon">
+
+                    <div class="tm-highlight-icon">
+                        <img src="pics/cook.jpeg" height="150" width="150">    
+                    </div>                    
+
+                    <div class="media-body">
+                        <header>
+                            <h2>Need More?</h2>
+                        </header>
+                        <p class="tm-margin-b">Missing a vital ingredient? Learn some tips and tricks to still be successful in the kitchen! </p>
+                        <a href="tips.html" class="tm-white-bordered-btn">Tips</a>
+                    </div>                    
+                </section>
+            </div>
+
+            <footer>
+                <img src="pics/kirby.jpeg" width="50" height="50">
+                Tineytai's Recipes - Come Hungry, Leave Inspired... to make food
+                
+            </footer>    
+        </div>
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="js/popper.min.js"></script>                <!-- Popper (https://popper.js.org/) -->
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
+        <script>     
+       
+            $(document).ready(function(){
+                
+                // Update the current year in copyright
+                $('.tm-current-year').text(new Date().getFullYear());
+
+            });
+
+        </script>             
+
+</body>
+</html>
