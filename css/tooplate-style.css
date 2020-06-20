@@ -1,7 +1,7 @@
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 18px;
-	background: url('../pics/backgrounds/background12.jpg');
+	background: url('../pics/backgrounds/b4.jpg');
 	padding: 0 15px;
 	overflow-x: hidden;
 
@@ -185,7 +185,7 @@ button:focus { outline: none; }
 .tm-site-description { font-size: 1.4rem; }
 
 .tm-site-header {
-	background: url('../pics/backgrounds/background28.jpg') no-repeat;
+	background: url('../pics/backgrounds/b5.jpg') no-repeat;
 	background-size: cover;
 	height: 300px;
 	padding: 60px 80px;
@@ -194,7 +194,7 @@ button:focus { outline: none; }
 }
 
 .tm-site-header2 {
-	background: url('../pics/backgrounds/background25.jpg') no-repeat;
+	background: url('../pics/backgrounds/b2.jpeg') no-repeat;
 	background-size: cover;
 	height: 500px;
 	padding: 60px 80px;
@@ -203,7 +203,7 @@ button:focus { outline: none; }
 }
 
 .tm-site-header3 {
-	background: url('../pics/backgrounds/background27.jpg') no-repeat;
+	background: url('../pics/backgrounds/b3.png') no-repeat;
 	background-size: cover;
 	height: 500px;
 	padding: 60px 80px;
@@ -212,7 +212,7 @@ button:focus { outline: none; }
 }
 
 .tm-site-header4 {
-	background: url('../pics/backgrounds/background23.jpg') no-repeat;
+	background: url('../pics/backgrounds/b1.jpg') no-repeat;
 	background-size: cover;
 	height: 500px;
 	padding: 60px 80px;
